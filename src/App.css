@@ -1,0 +1,72 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.container{
+  background-color: #202020;
+  min-height: 100vh ; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  background-color: #CC9;
+  padding: 1rem;
+  width: 20rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title{
+  font-size : 1.5rem;
+  color:#333;
+}
+
+.subtitle{
+  font-size : 0.75rem;
+  color:#666 ;
+  margin: 0.5rem 0;
+  font-weight: 500 ;
+}
+
+.input{
+  padding: 1rem;
+  border: 2px solid #333;
+  border-radius: 8px;
+  color: #333;
+  background-color: #fff;
+  font-size : 0.7rem;
+  width: 70%;
+  outline: none;
+  margin: 0.5rem 0;
+  
+}
+
+.qr-code{
+  margin: 1rem;
+  background-color: #fff;
+  width: 70% ; 
+  font-size : 0.7rem;
+  color:#333;
+  border: 2px solid #333;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.btn-download{
+  border: none;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size : 0.7rem;
+  text-decoration: none;
+  margin-top: 1rem;
+}
